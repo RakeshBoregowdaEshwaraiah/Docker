@@ -7,7 +7,7 @@ builder:
 	docker build -t apk_builder:${BUILD_ID} builder/
 
 target:
-	mkdir -p target
+	mkdir -p target       
 aports:
 	git clone https://git.alpinelinux.org/aports
 
